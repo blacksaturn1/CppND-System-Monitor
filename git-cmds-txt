@@ -1,8 +1,8 @@
-git checkout -b myFeature project
+git checkout -b update-system project
 
 git commit -am "Your message"
 
-git checkout dev
+git checkout project
 
 git merge --no-ff myFeature
 
