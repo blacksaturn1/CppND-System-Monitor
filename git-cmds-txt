@@ -1,0 +1,10 @@
+git checkout -b myFeature project
+
+git commit -am "Your message"
+
+git checkout dev
+
+git merge --no-ff myFeature
+
+git push origin dev
+git push origin myFeature
